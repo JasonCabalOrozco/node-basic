@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 4cm;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  #productos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #productos th, #productos td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  #productos th {
+    background-color: #f2f2f2;
+  }
+  
+  #productos tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #productos tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  #paginacion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; /* Separación adicional */
+  }
+  
+  #filtrarPorPrecio {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #filtrarPorPrecio form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #filtrarPorPrecio label {
+    margin-right: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .atras,
+.sig {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-right: 10px; /* Margen derecho entre botones */
+}
+
+.atras:hover,
+.sig:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el ratón */
+}
